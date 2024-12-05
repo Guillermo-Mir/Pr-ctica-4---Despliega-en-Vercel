@@ -1,0 +1,110 @@
+/* Estilo global */
+* {
+    color: white; 
+}
+
+img {
+    border-radius: 20px;
+}
+
+html, body {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    color: black;
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+main {
+    position: relative;
+    padding-top: 10%;
+}
+
+header img {
+    max-width: 500px;
+    width: 50%;
+}
+/*Navegador*/
+nav {
+    text-align: center;
+    padding-right: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+nav ul li a:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+/*Peliculas y series*/
+#Peliculas_Y_Series {
+    margin-top: 6%; 
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;               
+    justify-content:space-between;                     
+    width: 90%; 
+    
+                 
+}
+
+#Peliculas_Y_Series article {
+    width: 48%;                   
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;           
+    align-items: center;           
+    padding: 10px;
+}
+
+#Peliculas_Y_Series article a img {
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;         
+}
+
+.container {
+    padding-left: 10px;
+    margin: 0;                     
+    text-align: left;
+}
+/*Footer*/
+#footer {
+    text-align: center;
+}
+
+#footer img {
+    border-radius: 500px;
+    width: 65px;
+    height: 65px;
+}
+

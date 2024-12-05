@@ -1,0 +1,177 @@
+/* Estilo global */
+* {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Header */
+header{
+    color: black;
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-top: -42%;
+}
+header img{
+    max-width: 500px;
+    width: 50%;
+    
+}
+nav{
+    text-align: center;
+    padding-right: 20px;  
+      
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li  {
+    border-radius: 10px;
+    background-color: black ;
+    text-align: center;
+    color: white;
+    display: inline;
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+nav ul li a:hover{
+   background-color:red;
+   transition: 0,5s;
+}
+
+/* Formulario de Registro */
+#registro {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo-registro {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.descripcion-registro {
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+.campo {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #ccc;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: red;
+    background-color: #444;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.btn-registrar {
+    background-color: red;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-registrar:hover {
+    background-color: #e74c3c;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px 0;
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#footer img{
+    border-radius: 500px;
+    width: 65px;
+    height: 65px;
+
+}

@@ -1,0 +1,131 @@
+/* Estilo global */
+*{
+    color: white; 
+}
+
+img {
+    border-radius: 20px;
+}
+
+html, body{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+header{
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+main{
+    position: relative;
+    padding-top: 10%;
+}
+header img{
+    max-width: 500px;
+    width: 50%;
+    
+}
+/*Navegador*/
+nav{
+    text-align: center;
+    padding-right: 50px;  
+      
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li  {
+    border-radius: 10px;
+    background-color: black ;
+    text-align: center;
+    color: white;
+    display: inline;
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+nav ul li a:hover{
+   background-color:red;
+   transition: 0,5s;
+}
+
+
+/* Pelicula Concreta*/
+ #Trailer{
+    float:inline-start;
+ }
+
+ .Titulo_Trailer{
+    margin-left: 10% ;
+ }
+
+ .Video_Trailer{
+    width: 952px;
+    height: 535px; 
+    margin-left: 10%;
+ }
+ /*Info pelicula*/
+.Info_general{
+    margin-left: 60%;
+    margin-top: 7%;
+}
+.Info{
+    margin-left: 60%; 
+}
+.Sinopsis{
+    margin-top: -10%;
+    margin-left: 5%;
+    padding-right: 50%;
+}
+/*Reparto*/
+#Reparto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}  
+#Reparto article {
+    text-align: center;
+    width: 150px; 
+    margin-left: 9%;
+}
+    
+#Reparto article h4 {
+    margin-top: 10px; 
+    text-align: center;
+    color: white;
+}
+    
+#Reparto img {
+    height: 150px;
+    width: 125px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+#Reparto img:hover {
+    transform: scale(1.1);
+}
+/* Footer*/
+#footer{
+    text-align: center;
+}
+#footer img{
+    border-radius: 500px;
+    width: 65px;
+    height: 65px;
+
+}
